@@ -13,4 +13,10 @@
     <string name="XAxis">X Axis</string>
     <string name="YAxis">Y Axis</string>
     <string name="ZAxis">Z Axis</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="visible">Visible</string>
+    <string name="list">List</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="logo">Logo</string>
 </resources>

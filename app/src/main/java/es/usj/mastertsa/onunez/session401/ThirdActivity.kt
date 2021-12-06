@@ -3,6 +3,7 @@ package es.usj.mastertsa.onunez.session401
 import android.content.Context
 import android.hardware.Sensor
 import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -10,8 +11,9 @@ import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
 import es.usj.mastertsa.onunez.session401.databinding.ActivityThirdBinding
+import kotlin.math.abs
 
-class ThirdActivity : AppCompatActivity() {
+class ThirdActivity : AppCompatActivity(), SensorEventListener {
     private var lastX = 0f
     private var lastY = 0f
     private var lastZ = 0f
@@ -57,9 +59,9 @@ class ThirdActivity : AppCompatActivity() {
         displayCleanValues()
         displayCurrentValues()
         displayMaxValues()
-        deltaX = Math.abs(lastX - event.values[0])
-        deltaY = Math.abs(lastY - event.values[1])
-        deltaZ = Math.abs(lastZ - event.values[2])
+        deltaX = abs(lastX - event.values[0])
+        deltaY = abs(lastY - event.values[1])
+        deltaZ = abs(lastZ - event.values[2])
         if (deltaX < 2)
             deltaX = 0f
         if (deltaY < 2)
