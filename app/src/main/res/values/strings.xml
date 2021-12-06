@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Session 401</string>
+    <string name="insert_your_message">Insert your message</string>
+    <string name="send_message">Send message</string>
+</resources>
