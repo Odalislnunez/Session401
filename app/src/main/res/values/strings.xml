@@ -2,4 +2,15 @@
     <string name="app_name">Session 401</string>
     <string name="insert_your_message">Insert your message</string>
     <string name="send_message">Send message</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="max_acceleration">Max acceleration</string>
+    <string name="max_X">Max X</string>
+    <string name="max_Y">Max Y</string>
+    <string name="max_Z">Max Z</string>
+    <string name="_0_0">0 0</string>
+    <string name="current_acceleration">Current acceleration</string>
+    <string name="XAxis">X Axis</string>
+    <string name="YAxis">Y Axis</string>
+    <string name="ZAxis">Z Axis</string>
 </resources>
