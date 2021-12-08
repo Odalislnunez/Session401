@@ -19,4 +19,9 @@
     <string name="list">List</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="logo">Logo</string>
+    <string name="latitud">Latitude</string>
+    <string name="longitud">Longitude</string>
+    <string name="localizar">Localizar</string>
+    <string name="title_activity_maps">MAP</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBppp-IpCyFisg6OKuA4OZfWeooyRrPUW0</string>
 </resources>
