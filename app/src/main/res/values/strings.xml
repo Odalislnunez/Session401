@@ -24,4 +24,7 @@
     <string name="localizar">Localizar</string>
     <string name="title_activity_maps">MAP</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBppp-IpCyFisg6OKuA4OZfWeooyRrPUW0</string>
+    <string name="sleep_time_in_seconds">Sleep time in seconds</string>
+    <string name="insert_time">Insert time</string>
+    <string name="run_async_task">Run async task</string>
 </resources>
